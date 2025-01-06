@@ -2,7 +2,14 @@
 
 Bienvenido al **Cotizador de Criptomonedas**, una aplicación web que te permite consultar el precio actual de las principales criptomonedas en diversas monedas, como el Dólar Estadounidense (USD), Euro (EUR), Libra Esterlina (GBP), entre otras. ¡Todo esto al alcance de tu mano con una interfaz amigable y moderna!
 
+## 🌐 Enlace al Proyecto
+
+Puedes acceder al proyecto desplegado en Netlify a través del siguiente enlace:
+
+🔗 [Cotizador de Criptomonedas](https://<tu-sitio>.netlify.app)
+
 ![Crypto](https://i.pinimg.com/736x/d2/aa/10/d2aa10658102d328859d6758b836dbeb.jpg)
+
 
 ## 🚀 Características
 
