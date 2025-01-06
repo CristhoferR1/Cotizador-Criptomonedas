@@ -6,7 +6,7 @@ Bienvenido al **Cotizador de Criptomonedas**, una aplicación web que te permite
 
 Puedes acceder al proyecto desplegado en Netlify a través del siguiente enlace:
 
-🔗 [Cotizador de Criptomonedas](https://<tu-sitio>.netlify.app)
+🔗 [Cotizador de Criptomonedas](https://cotizadorcriptosv.netlify.app/views/)
 
 ![Crypto](https://i.pinimg.com/736x/d2/aa/10/d2aa10658102d328859d6758b836dbeb.jpg)
 
