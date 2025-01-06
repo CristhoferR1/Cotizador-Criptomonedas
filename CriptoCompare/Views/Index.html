@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="../Css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-lg">
+                    <div class="card-header">
+                        <i class="fas fa-coins icono"></i>
+                        <h4>Cotizador de Criptomonedas</h4>
+                    </div>
+                    <div class="card-body">
+                        <form id="cotizador-form">
+                            <div class="mb-4">
+                                <label for="criptomoneda" class="form-label">Selecciona una criptomoneda</label>
+                                <select id="criptomoneda" name="cripto" class="form-select text-dark bg-light">
+                                    <option value="" disabled selected>Elige la criptomoneda</option>
+                                  
+                                </select>
+                            </div>
+                            <div class="mb-4">
+                                <select id="moneda" name="moneda" class="form-select text-dark bg-light">
+                                    <option value="" disabled selected>Elige la moneda</option>
+                                    <option value="USD">Dólar Estadounidense (USD) 💵</option>
+                                    <option value="EUR">Euro (EUR) 💶</option>
+                                    <option value="GBP">Libra Esterlina (GBP) 💷</option>
+                                    <option value="JPY">Yen Japonés (JPY) 💴</option>
+                                    <option value="CAD">Dólar Canadiense (CAD) 🇨🇦</option>
+                                </select>
+                                
+                                
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" id="cotizar-btn" class="btn btn-primary btn-lg">Cotizar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="resultado">
+
+        </div>
+    </div>
+    
+</body>
+<script src="../App/App.js"></script>
+</html>

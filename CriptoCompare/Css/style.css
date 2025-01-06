@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.card-header {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    padding: 1rem;
+}
+.form-select, .form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+}
+.form-select:focus, .form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+.btn-primary {
+    background-color: #ff7e5f;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #feb47b;
+}
+.icono {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.resultado-cotizacion {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    color: white;
+}
+
+.resultado-cotizacion .card-body {
+    text-align: center;
+}
+
+.resultado-cotizacion .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.resultado-cotizacion .card-text {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.resultado-cotizacion .text-success {
+    color: #28a745 !important;
+}
+
+.resultado-cotizacion .text-warning {
+    color: #ffc107 !important;
+}
+
+.resultado-cotizacion .text-danger {
+    color: #dc3545 !important;
+}
+
+.resultado-cotizacion .text-muted {
+    color: #6c757d !important;
+}
+
+.spinner {
+    margin: 100px auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  .spinner > div {
+    background-color: #333;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }
